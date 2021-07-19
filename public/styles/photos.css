@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: 'Nunito', sans-serif;
 }
@@ -18,10 +23,17 @@ nav > a {
 
 h1 {
   text-align: center;
+  padding: 1.5em;
 }
 
 img {
   width: 30em;
   display: block;
   margin: 2em auto 2em auto;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 1em;
 }
