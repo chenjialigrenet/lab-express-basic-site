@@ -21,6 +21,10 @@ nav > a {
   text-decoration: none;
 }
 
+nav > a:hover {
+  color: red;
+}
+
 h1 {
   text-align: center;
   padding: 1.5em;
@@ -35,4 +39,8 @@ footer {
 li {
   padding-left: 2em;
   padding-right: 2em;
+}
+
+ul {
+  text-align: center;
 }

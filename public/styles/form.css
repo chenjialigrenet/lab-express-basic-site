@@ -30,14 +30,19 @@ h1 {
   padding: 1.5em;
 }
 
-img {
-  width: 30em;
-  display: block;
-  margin: 2em auto 2em auto;
-}
-
 footer {
   text-align: center;
   font-size: 13px;
-  padding-top: 1em;
+  padding-top: 3em;
+}
+
+li {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+form,
+h2,
+p {
+  text-align: center;
 }

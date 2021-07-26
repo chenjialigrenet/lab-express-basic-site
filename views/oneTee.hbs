@@ -1,0 +1,27 @@
+<h1>We've received your request!</h1>
+<p>So you've chosen a {{hughTee.color}} tee in size {{hughTee.size}}.</p>
+<br />
+<h2>In case you would like to modify your request...</h2>
+
+<form method='POST' action='/shop/{{hughTee._id}}/update'>
+  <div>
+    <label for='color'>Choose a color:</label>
+    <select name='color'>
+      <option value='black'>black</option>
+      <option value='white'>white</option>
+      <option value='grey'>grey</option>
+    </select>
+  </div>
+
+  <div>
+    <label for='size'>Choose a size:</label>
+    <select name='size'>
+      <option value='XS'>XS</option>
+      <option value='S'>S</option>
+      <option value='M'>M</option>
+      <option value='L'>L</option>
+      <option value='XL'>XL</option>
+    </select>
+  </div>
+  <button type='submit'>Modify</button>
+</form>
